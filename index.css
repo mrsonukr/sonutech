@@ -1,0 +1,562 @@
+.boxes,.page {
+  margin: 0;
+  padding: 0
+
+}
+
+.boxes {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  color: #666;
+  line-height: 18px;
+  z-index: -10000;
+  min-width: 1043px;
+  background: #f2f5f9
+}
+
+.atag {
+  color: #00a6ed;
+  text-decoration: none
+}
+
+.image {
+  vertical-align: middle;
+  border: 0;
+  color: #ccc
+}
+
+.boxes {
+  padding-top: 5px
+}
+
+.aegon-down-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  height: 80px;
+  padding: 12px 16px;
+  background: #fff
+}
+
+.aegon-down-item .atag.dl-ref {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center
+}
+
+.aegon-down-item .icon {
+  display: flex;
+  border-radius: 15%;
+  border: 1px solid #eff3f9;
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow: hidden
+}
+
+.aegon-down-item .icon .image {
+  width: 56px;
+  height: 56px;
+  align-self: center
+}
+
+.aegon-down-item .text {
+  padding: 0 12px;
+  margin-right: auto
+}
+
+.aegon-down-item .tit {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical
+}
+
+.aegon-down-item .des {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, .4);
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical
+}
+
+.aegon-down-item .aegon-down-item-btn {
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  background: #24cd77;
+  border-radius: 4px;
+  padding: 5px 20px;
+  align-self: center;
+  flex-shrink: 0
+}
+
+.aegon-down-item .atag.dl-ref+.atag {
+  flex-shrink: 0
+}
+
+@media (min-width:996px) {
+  .boxes {
+    padding-top: 70px
+  }
+}
+
+.boxes {
+  min-width: auto
+}
+
+.detail_container .detail_banner {
+  color: #5e5e5e;
+  padding: 12px 16px 4px
+}
+
+.detail_container .detail_banner .apk_info {
+  display: flex
+}
+
+.detail_container {
+  margin: 0 auto
+}
+
+.detail_container .detail_top {
+  position: relative;
+  margin-top: 4px
+}
+
+.detail_container .detail_top .detail_banner {
+  background-color: #fff
+}
+
+.detail_container .detail_top .detail_banner .page {
+  font-size: 13px
+}
+
+.detail_container .detail_top .detail_banner .page .icon::before {
+  content: " ";
+  display: inline-block;
+  background: url(https://static.apkpure.com/www/static/imgs/details_new_icon.svg) no-repeat;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 1px
+}
+
+.detail_container .detail_top .detail_banner .page.details_sdk span:first-child {
+  color: #24cd77
+}
+
+.detail_container .detail_top .detail_banner .page.details_sdk>.atag:hover {
+  color: #24cd77
+}
+
+.detail_container .detail_top .detail_banner .page>.atag {
+  color: #5e5e5e
+}
+
+.detail_container .detail_top .detail_banner .page .developer .atag {
+  color: #5e5e5e
+}
+
+.detail_container .detail_top .detail_banner .page .developer .atag:hover {
+  color: #00a6ed
+}
+
+.detail_container .detail_top .detail_banner .apk_info {
+  min-height: 80px;
+  flex: 1;
+  width: 98%
+}
+
+.detail_container .detail_top .detail_banner .apk_info .image {
+  border-radius: 15%;
+  border: 1px solid #eff3f9;
+  background-color: #fff;
+  box-sizing: border-box
+}
+
+.detail_container .detail_top .detail_banner .apk_info .info {
+  padding: 0 16px;
+  min-height: 80px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap
+}
+
+.detail_container .detail_top .detail_banner .apk_info .info .title_link {
+  display: inline-block;
+  line-height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%
+}
+
+.detail_container .detail_top .detail_banner .apk_info .info .title_link h1 {
+  display: inline;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c4043;
+  height: 24px
+}
+
+.detail_container .detail_top .detail_banner .apk_info .info .page {
+  display: inline;
+  line-height: 22px
+}
+
+.detail_container .detail_top .detail_banner .downalod_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 12px
+}
+
+.detail_container .detail_top .detail_banner .downalod_box>.page {
+  text-align: center
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .price-box {
+  margin-top: 8px
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fa8b16;
+  margin-right: 8px
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .atag:not(.huawei) span {
+  position: relative;
+  padding-left: 32px
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .atag:not(.huawei) span i {
+  background: url(https://static.apkpure.com/www/static/imgs/details_new_icon.svg) no-repeat 0 -52px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 1px
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .da {
+  display: inline-block;
+  background-color: #24cd77;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  padding: 10px 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  border-radius: 4px;
+  text-align: center
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .da:last-child {
+  margin-bottom: 0
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .da:hover {
+  background: #24dc83
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .details_how_to {
+  text-align: center
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .details_how_to .atag {
+  font-size: 13px;
+  line-height: 30px;
+  display: block;
+  margin-top: 4px
+}
+
+.detail_container .detail_top .detail_banner .downalod_box .details_how_to .atag svg {
+  vertical-align: middle;
+  margin-bottom: 4px
+}
+
+.detail_container .banner_share {
+  height: 44px;
+  background-color: #fff
+}
+
+.detail_container .aegon-down-item {
+  height: auto;
+  margin: 4px 0;
+  padding: 10px 16px;
+  background-color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center
+}
+
+.detail_container .aegon-down-item .icon {
+  display: flex;
+  border: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-sizing: border-box;
+  flex-shrink: 0
+}
+
+.detail_container .aegon-down-item .icon .image {
+  width: 40px;
+  height: 40px
+}
+
+.detail_container .aegon-down-item .text {
+  padding: 0 12px;
+  flex: 1
+}
+
+.detail_container .aegon-down-item .text .des {
+  font-size: 12px;
+  line-height: 16px;
+  color: #8b8b8b;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical
+}
+
+.detail_container .aegon-down-item .text .tit {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3c4043;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical
+}
+
+.detail_container .aegon-down-item .btn {
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  background: #24cd77;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 6px 8px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0
+}
+
+.aegon-down-item .atag.dl-ref {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center
+}
+
+@media (min-width:720px) {
+  .detail_container .detail_top .detail_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px
+  }
+
+  .detail_container .detail_top .detail_banner .apk_info {
+    width: 0
+  }
+
+  .detail_container .detail_top .detail_banner .apk_info .info .title_link h1 {
+    font-size: 20px;
+    line-height: 28px
+  }
+
+  .detail_container .detail_top .detail_banner .apk_info .info .page {
+    line-height: 28px
+  }
+
+  .detail_container .detail_top .detail_banner .apk_info .image {
+    width: 106px;
+    height: 106px
+  }
+
+  .detail_container .detail_top .detail_banner .downalod_box .da {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 24px;
+    height: 18px
+  }
+
+  .detail_container .detail_top .detail_banner .detail_banner {
+    max-width: 240px;
+    margin: 0 auto
+  }
+}
+
+@media (min-width:992px) {
+  .container {
+    width: 764px;
+    width: calc(100vw - 332px);
+    max-width: 868px;
+    margin-right: 332px;
+    display: block
+  }
+
+  .detail_container {
+    padding-top: 16px;
+    width: 1090px;
+    width: max-content;
+    position: relative
+  }
+
+  .detail_container .detail_top .detail_banner .apk_info .info {
+    max-width: 490px
+  }
+
+  .detail_container .detail_top .detail_banner .downalod_box .da {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 24px;
+    height: 18px
+  }
+
+  .detail_container .detail_top .detail_banner .detail_banner {
+    max-width: 240px;
+    margin: 0 auto
+  }
+
+  .detail_container .banner_share {
+    display: none
+  }
+}
+
+@keyframes loading-animation {
+
+  0%,
+  100% {
+    box-shadow: 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf
+  }
+
+  25% {
+    box-shadow: -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49
+  }
+
+  50% {
+    box-shadow: -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf
+  }
+
+  75% {
+    box-shadow: 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49
+  }
+}
+
+@-o-keyframes loading-animation {
+
+  0%,
+  100% {
+    box-shadow: 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf
+  }
+
+  25% {
+    box-shadow: -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49
+  }
+
+  50% {
+    box-shadow: -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf
+  }
+
+  75% {
+    box-shadow: 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49
+  }
+}
+
+@-ms-keyframes loading-animation {
+
+  0%,
+  100% {
+    box-shadow: 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf
+  }
+
+  25% {
+    box-shadow: -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49
+  }
+
+  50% {
+    box-shadow: -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf
+  }
+
+  75% {
+    box-shadow: 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49
+  }
+}
+
+@-webkit-keyframes loading-animation {
+
+  0%,
+  100% {
+    box-shadow: 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf
+  }
+
+  25% {
+    box-shadow: -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49
+  }
+
+  50% {
+    box-shadow: -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf
+  }
+
+  75% {
+    box-shadow: 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49
+  }
+}
+
+@-moz-keyframes loading-animation {
+
+  0%,
+  100% {
+    box-shadow: 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf
+  }
+
+  25% {
+    box-shadow: -10px 10px #dfdfdf, -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49
+  }
+
+  50% {
+    box-shadow: -10px -10px #4f4d49, 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf
+  }
+
+  75% {
+    box-shadow: 10px -10px #dfdfdf, 10px 10px #4f4d49, -10px 10px #dfdfdf, -10px -10px #4f4d49
+  }
+}
+
